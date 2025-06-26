@@ -1,5 +1,7 @@
 Analisis Penjualan dan Profitabilitas Superstore | Proyek Portofolio Data Analis
-➡️ Lihat Dashboard Interaktif Langsung di Tableau Public
+
+➡️ [Lihat Dashboard Interaktif Langsung di Tableau Public](https://public.tableau.com/app/profile/rendra.gunawan/viz/Proyek-Superstore-kaggle/ExecutiveSalesProfitabilityOverview)
+
 1. Latar Belakang & Masalah Bisnis
 Proyek ini merupakan analisis data end-to-end dari dataset penjualan Superstore. Tujuannya adalah untuk bertindak sebagai seorang analis data internal yang ditugaskan untuk mengidentifikasi pendorong utama pendapatan dan profitabilitas, menemukan area atau produk yang kurang berkinerja, dan memberikan rekomendasi strategis berbasis data kepada manajemen untuk meningkatkan efisiensi operasional dan keuntungan.
 
