@@ -1,9 +1,10 @@
----
+# 📊 Analisis Penjualan dan Profitabilitas Superstore
 
-## 📊 Analisis Penjualan dan Profitabilitas Superstore
-Proyek Portofolio Data Analis – Dashboard Interaktif dengan Tableau
+**Proyek Portofolio Data Analis – Dashboard Interaktif dengan Tableau**
 
-🔗 Lihat Dashboard di Tableau Public
+🔗 Lihat Dashboard di Tableau Public:  
+[https://public.tableau.com/app/profile/rendra.gunawan/viz/Proyek-Superstore-kaggle/ExecutiveSalesProfitabilityOverview](https://public.tableau.com/app/profile/rendra.gunawan/viz/Proyek-Superstore-kaggle/ExecutiveSalesProfitabilityOverview)
+
 ---
 
 ## 🧩 Latar Belakang & Masalah Bisnis
