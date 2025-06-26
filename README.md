@@ -1,71 +1,109 @@
-Analisis Penjualan dan Profitabilitas Superstore | Proyek Portofolio Data Analis
+---
 
-➡️ [Lihat Dashboard Interaktif Langsung di Tableau Public](https://public.tableau.com/app/profile/rendra.gunawan/viz/Proyek-Superstore-kaggle/ExecutiveSalesProfitabilityOverview)
+# 📊 Analisis Penjualan dan Profitabilitas Superstore
 
-1. Latar Belakang & Masalah Bisnis
-Proyek ini merupakan analisis data end-to-end dari dataset penjualan Superstore. Tujuannya adalah untuk bertindak sebagai seorang analis data internal yang ditugaskan untuk mengidentifikasi pendorong utama pendapatan dan profitabilitas, menemukan area atau produk yang kurang berkinerja, dan memberikan rekomendasi strategis berbasis data kepada manajemen untuk meningkatkan efisiensi operasional dan keuntungan.
+**Proyek Portofolio Data Analis – Dashboard Interaktif dengan Tableau**
 
-2. Pratinjau Dashboard
-Dashboard interaktif ini dirancang untuk memberikan gambaran umum eksekutif dan memungkinkan analisis drill-down pada berbagai dimensi seperti waktu, geografi, produk, dan segmen pelanggan.
+🔗 **[Lihat Dashboard di Tableau Public](https://public.tableau.com/app/profile/rendra.gunawan/viz/Proyek-Superstore-kaggle/ExecutiveSalesProfitabilityOverview)**
 
-(Saran: Ganti gambar statis di bawah ini dengan GIF yang menunjukkan interaktivitas dashboard Anda. Anda bisa menggunakan aplikasi gratis seperti ScreenToGif atau Giphy Capture untuk merekam layar)
+---
 
-3. Wawasan Bisnis & Rekomendasi Aksi
-Berikut adalah temuan utama dari analisis dan rekomendasi yang bisa ditindaklanjuti oleh tim bisnis:
+## 🧩 Latar Belakang & Masalah Bisnis
 
-Insight 1: Kategori Mebel (Furniture) Memiliki Profitabilitas Rendah.
-Meskipun menyumbang volume penjualan yang signifikan, kategori Mebel secara konsisten menunjukkan rasio keuntungan yang paling rendah, seringkali mendekati nol atau bahkan negatif.
+Proyek ini merupakan studi analisis data end-to-end menggunakan dataset penjualan *Superstore*.
 
-Rekomendasi: Lakukan peninjauan ulang terhadap strategi diskon untuk produk-produk mebel, terutama untuk item dengan diskon di atas 30%. Pertimbangkan untuk mengurangi diskon atau membuat paket bundling dengan produk yang lebih menguntungkan.
+* Mengidentifikasi pendorong utama pendapatan dan profitabilitas
+* Menemukan area, produk, atau wilayah yang kurang berkinerja
+* Memberikan rekomendasi berbasis data guna meningkatkan efisiensi operasional dan profit
 
-Insight 2: Kerugian Signifikan di Beberapa Negara Bagian.
-Negara bagian dengan penjualan tinggi seperti Texas, Pennsylvania, dan Illinois ternyata merupakan pusat kerugian terbesar bagi perusahaan.
+---
 
-Rekomendasi: Lakukan analisis biaya yang lebih dalam (deep-dive) untuk negara bagian ini. Identifikasi apakah kerugian disebabkan oleh biaya pengiriman yang tinggi, persaingan harga lokal, atau penerapan diskon yang tidak efektif.
+## 🖼️ Pratinjau Dashboard
 
-Insight 3: Potensi Besar di Segmen Korporat.
-Meskipun segmen Konsumen (Consumer) memiliki jumlah transaksi terbanyak, segmen Korporat (Corporate) menunjukkan nilai keuntungan rata-rata per transaksi yang lebih tinggi.
+Dashboard ini dirancang untuk:
 
-Rekomendasi: Kembangkan program loyalitas atau kampanye pemasaran yang ditargetkan khusus untuk klien korporat guna meningkatkan frekuensi pembelian dan membangun hubungan jangka panjang.
+* Memberikan ringkasan eksekutif
+* Menyediakan analisis drill-down pada dimensi waktu, produk, wilayah, dan segmen pelanggan
+* Mendukung pengambilan keputusan cepat berbasis data
 
-4. Proses Teknis & Metodologi
-Proyek ini dilaksanakan melalui beberapa tahapan metodologis:
 
-Pengumpulan Data: Menggunakan dataset standar "Sample - Superstore".
+---
 
-Pembersihan Data (Data Cleaning): Dilakukan menggunakan Python dengan library Pandas. Proses ini mencakup penanganan nilai duplikat, koreksi tipe data (terutama kolom tanggal), dan memastikan konsistensi data.
+## 💡 Wawasan Bisnis & Rekomendasi Aksi
 
-Analisis Data Eksploratif (EDA): Menggunakan Python (Pandas, Matplotlib, Seaborn) untuk menggali data, menemukan pola awal, dan memvalidasi hipotesis melalui statistik deskriptif dan visualisasi awal.
+### 1. 📦 **Kategori Furniture: Profitabilitas Rendah**
 
-Desain Dashboard & Visualisasi: Merancang dan membangun dashboard interaktif di Tableau dengan fokus pada pengalaman pengguna (UX) dan kejelasan wawasan. Fitur interaktivitas seperti Filter Actions dan Global Filters diimplementasikan untuk analisis mandiri.
+* Meski menyumbang penjualan besar, kategori ini sering mencatatkan keuntungan negatif.
+* **Rekomendasi**: Evaluasi kembali strategi diskon—hindari diskon berlebih & pertimbangkan paket bundling.
 
-Publikasi: Mempublikasikan dashboard akhir ke Tableau Public untuk aksesibilitas publik dan menyusun dokumentasi proyek di GitHub.
+### 2. 🗺️ **Kerugian Signifikan di Beberapa Negara Bagian**
 
-5. Teknologi yang Digunakan
-Python 3.x
+* Negara bagian seperti **Texas, Pennsylvania, Illinois** menyumbang volume besar namun juga kerugian tinggi.
+* **Rekomendasi**: Lakukan analisis biaya lanjut untuk wilayah ini. Fokus pada biaya kirim, kompetisi lokal, dan efektivitas diskon.
 
-Libraries: Pandas, Matplotlib, Seaborn
+### 3. 👔 **Peluang dari Segmen Korporat**
 
-Lingkungan: Jupyter Notebook
+* Meskipun volume transaksi tertinggi ada di segmen *Consumer*, keuntungan rata-rata tertinggi ada di *Corporate*.
+* **Rekomendasi**: Rancang program loyalitas atau kampanye pemasaran khusus untuk segmen korporat.
 
-Visualisasi & Dashboard: Tableau Desktop
+---
 
-Platform Sharing: Tableau Public, GitHub
+## 🔬 Proses & Metodologi
 
-6. Reproduksi Proyek
-Untuk mereproduksi analisis yang ada di notebook:
+1. **Pengumpulan Data**
 
-Clone repositori ini.
+   * Dataset: *Sample - Superstore* dari Kaggle
 
-Pastikan Anda memiliki Python dan Jupyter Notebook terpasang.
+2. **Data Cleaning**
 
-Instal library yang dibutuhkan: pip install pandas matplotlib seaborn
+   * Tools: Python (Pandas)
+   * Tahapan: koreksi format tanggal, hapus duplikat, validasi tipe data
 
-Jalankan notebook yang ada di folder /notebooks.
+3. **Exploratory Data Analysis (EDA)**
 
-Kontak
-Nama: Rendra Gunawan
+   * Tools: Pandas, Matplotlib, Seaborn
+   * Fokus: penjualan per kategori, tren bulanan, profit regional
 
-LinkedIn: www.linkedin.com/in/rendra-gunawan-9827771b1
+4. **Desain Dashboard**
 
-Email: rendragunawan023.rg@gmail.com
+   * Platform: Tableau Desktop
+   * Fitur: Filter interaktif, drill-down, global filters
+
+5. **Publikasi**
+
+   * Output akhir dibagikan melalui Tableau Public dan GitHub
+
+---
+
+## ⚙️ Teknologi yang Digunakan
+
+| Teknologi                | Peran                                          |
+| ------------------------ | ---------------------------------------------- |
+| **Python 3.x**           | Data wrangling, cleaning, dan analisis         |
+| **Pandas**               | Manipulasi dan agregasi data                   |
+| **Matplotlib & Seaborn** | Visualisasi eksploratif                        |
+| **Tableau**              | Visualisasi interaktif dan pembuatan dashboard |
+| **GitHub**               | Dokumentasi & publikasi proyek                 |
+
+---
+
+## 🧪 Cara Reproduksi Proyek
+
+1. Clone repositori ini
+2. Pastikan Python dan Jupyter Notebook sudah terinstal
+3. Jalankan:
+
+   ```bash
+   pip install pandas matplotlib seaborn
+   ```
+4. Buka file `.ipynb` yang tersedia di folder `/notebooks` untuk analisis awal
+
+---
+
+## 📇 Kontak
+
+* **Nama**: Rendra Gunawan
+* 🌐 [LinkedIn](https://www.linkedin.com/in/rendra-gunawan-9827771b1)
+* 📧 Email: [rendragunawan023.rg@gmail.com](mailto:rendragunawan023.rg@gmail.com)
+
+---
